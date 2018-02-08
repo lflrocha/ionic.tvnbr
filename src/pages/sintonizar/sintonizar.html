@@ -1,0 +1,82 @@
+<!--
+  Generated template for the SintonizarPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Sintonizar</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-list-header>TV Digital</ion-list-header>
+
+    <ion-item>
+      Brasília
+      <ion-badge item-end>2.2</ion-badge>
+    </ion-item>
+
+    <ion-item>
+      São Paulo
+      <ion-badge item-end>62.2</ion-badge>
+    </ion-item>
+
+    <ion-item>
+      Rio de Janeiro
+      <ion-badge item-end>2.2</ion-badge>
+    </ion-item>
+
+    <ion-item>
+      Belo Horizonte
+      <ion-badge item-end>65.2</ion-badge>
+    </ion-item>
+
+  </ion-list>
+
+<ion-list>
+    <ion-list-header>Antena parabólica</ion-list-header>
+
+    <ion-item>
+      Satélite: Star One C2<br>
+      Frequência: 3753<br>
+      Symbol Rate: 3.333<br>
+      Fec 3/4<br>
+      Polarização: Horizontal
+    </ion-item>
+</ion-list>
+
+<ion-list>
+    <ion-list-header>TV por assinatura</ion-list-header >
+
+    <ion-item detail-push (click)="gotoNet()">
+      NET TV
+    </ion-item>
+
+    <ion-item>
+      Sky TV - 25
+       <ion-badge item-end>25</ion-badge>
+    </ion-item>
+
+    <ion-item>
+      Vivo TV - 230
+       <ion-badge item-end>230</ion-badge>
+    </ion-item>
+
+    <ion-item>
+      Oi TV - 25
+       <ion-badge item-end>25</ion-badge>
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>
