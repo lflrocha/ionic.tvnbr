@@ -1,3 +1,33 @@
 page-home {
 
+  .content-md{
+    background: url("../assets/imgs/pattern-cinza-escuro.jpg");
+    background-size: 50px;
+  }
+
+  .sixteen-nine {
+    @include aspect-ratio(16,9);
+    margin-top: -10px;
+  }
+
+
+  @media screen and (orientation:portrait) {
+    .sixteen-nine {
+      margin-top: 20vh;
+    }
+  }
+
+  video {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        transform: translateX(-50%) translateY(-50%);
+        opacity: .4;
+    }
+
 }
