@@ -7,13 +7,13 @@ page-home {
 
   .sixteen-nine {
     @include aspect-ratio(16,9);
-    margin-top: -10px;
+    margin-top: -13px;
   }
 
 
   @media screen and (orientation:portrait) {
     .sixteen-nine {
-      margin-top: 20vh;
+      margin: 20px 0;
     }
   }
 
@@ -30,4 +30,8 @@ page-home {
         opacity: .4;
     }
 
+    img.bannerHome{
+      opacity: .6;
+      margin: 3vh 0;
+    }
 }

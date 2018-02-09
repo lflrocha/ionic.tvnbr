@@ -24,6 +24,7 @@ p, ion-app{
 }
 
 
+
 .toolbar-background-md{
     background: url("../assets/imgs/pattern-cinza-escuro.jpg");
     background-size: 60px;
@@ -33,7 +34,11 @@ p, ion-app{
   color: #f2bb0b;
 }
 
-
+.escuro{
+  background: url("../assets/imgs/pattern-cinza-escuro.jpg");
+  background-size: 40px;
+  color: #fff;
+}
 
 .bar-button-default-md:hover:not(.disable-hover), .bar-button-clear-md-default:hover:not(.disable-hover), .bar-button-md-default:hover:not(.disable-hover){
   color: #fff;
