@@ -1,35 +1,12 @@
 page-sobre {
 
-.card{
-  background: transparent;
-  -webkit-box-shadow: 0 0 0 0;
-  box-shadow: 0 0 0 0;
-}
-
-.content-md{
-  background: url("../assets/imgs/pattern-amarelo.jpg");
-  background-size: 40px;
-}
-.card p {
-  color: #3d3d3c;
-}
-
-.card-content{
-  padding: 13px 14px;
-}
+  .content{
+    background: url("../assets/imgs/pattern-cinza-claro.jpg");
+    background-size: 40px;
+  }
 
 .button-clear{
-  color: #fff;
-}
-
-.sixteen-nine {
-  margin-top: -10px;
-}
-
-@media screen and (orientation:portrait) {
-  .sixteen-nine {
-    margin-top: 0px;
-  }
+  color: #f2bb0b;
 }
 
 }
