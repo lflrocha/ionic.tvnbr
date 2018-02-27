@@ -1,8 +1,13 @@
 page-home {
 
-  .content{
-    background: url("../assets/imgs/pattern-cinza-claro.jpg");
-    background-size: 40px;
+  ion-content{
+
+
+  }
+
+  .scroll-content{
+    background: url("../assets/imgs/video_bg.gif") no-repeat center fixed;
+    background-size: cover;
   }
 
   .sixteen-nine {
@@ -13,7 +18,7 @@ page-home {
 
   @media screen and (orientation:portrait) {
     .sixteen-nine {
-      margin: 20px 0;
+      margin: 0;
     }
   }
 
@@ -31,10 +36,9 @@ page-home {
     }
 
     img.bannerHome{
-      opacity: .6;
+      opacity: .7;
       margin: 3vh 0;
-      background: url("../assets/imgs/pattern-cinza-escuro.jpg");
-      background-size: 40px;
+
 
     }
 }
