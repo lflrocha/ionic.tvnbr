@@ -3,21 +3,37 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title><img style="height: 40px;" src="./assets/imgs/logoNBRFundoCinza.png" /></ion-title>
+    <ion-title>no ar</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
 
+<ion-content>
 
-<div class="box sixteen-nine">
-  <div class="content">
-  <iframe src="http://nbr.gov.br/streaming/nbr-include-mobile" style="width:100%; height:100%;" scrolling="no" frameborder="0" allowfullscreen></iframe>
+  <div class="box-wrapper" *ngIf="status">
+    <div class="box sixteen-nine">
+      <div class="content">
+        <iframe src="http://nbr.gov.br/streaming/nbr-include-mobile" style="width:100%; height:100%;" scrolling="no" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
   </div>
-</div>
 
-<img class="bannerHome" src="./assets/imgs/banner-destaques.png" />
+  <div class="videos">
+    <p class="recentes" *ngIf="recentes">recentes</p>
+    <div class="video " *ngFor="let item of items" (click)="itemTapped($event, item)">
+      <div class="imagem">
+        <img src="https://img.youtube.com/vi/{{item.videoid}}/maxresdefault.jpg" />
+      </div>
+      <div class="textos">
+        <p class="data">{{item.dia | date:'dd/MM/yyyy HH:mm'}}</p>
+        <p>{{item.titulo}}</p>
+      </div>
+    </div>
+  </div>
 
+  <ion-infinite-scroll (ionInfinite)="doInfinite($event)">
+    <ion-infinite-scroll-content loadingSpinner="bubbles" loadingText="Carregando mais notícias...">
+    </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
 
-<!-- <video autoplay loop src="./assets/imgs/videobg.mp4"></video>-->
 </ion-content>

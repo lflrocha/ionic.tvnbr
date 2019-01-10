@@ -1,20 +1,21 @@
 page-programas {
-  .card{
-    margin: 10px 10px 30px 10px;
+  .card {
+    margin: 0;
+    width: 100%;
+    margin: 0 0 1em 0;
   }
 
-  .cinzaClaro{
-    color: #a3a3a2;
+  .card p {
+    margin: 0;
+    font-size: 1.1em;
+    color: #000;
   }
 
-  .content{
-    background: url("../assets/imgs/pattern-cinza-claro.jpg");
-    background-size: 40px;
+  .content {
+    background: #ebebef;
   }
 
-  .button-clear{
-    color: #f2bb0b;
+  .button-clear {
+    color: #34003c;
   }
-
-
 }

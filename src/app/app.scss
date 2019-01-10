@@ -16,25 +16,25 @@
 // automatically applied to the <body> element in the app.
 
 
-
 p, ion-app{
   font-style: normal;
   font-weight: 400;
+  font-family: Metropolis !important;
 }
 
 .toolbar-background{
-    background: url("../assets/imgs/pattern-cinza-escuro.jpg");
-    background-size: 60px;
+    background: #34003c;
+}
+
+.toolbar-title {
+  font-weight: bold;
+  font-size: 1.7em;
 }
 
 .toolbar-title{
-  color: #f2bb0b;
-}
-
-.escuro{
-  background: url("../assets/imgs/pattern-cinza-escuro.jpg");
-  background-size: 40px;
   color: #fff;
+  text-align: center;
+  padding-right: 70px;
 }
 
 .bar-button-default:hover:not(.disable-hover),
@@ -43,7 +43,7 @@ p, ion-app{
 .bar-button-default-md:hover:not(.disable-hover),
 .bar-button-clear-md-default:hover:not(.disable-hover),
 .bar-button-md-default:hover:not(.disable-hover){
-  color: #f2bb0b;
+  color: #ffffff;
 }
 
 .bar-button-default,
@@ -52,13 +52,18 @@ p, ion-app{
 .bar-button-default-md,
 .bar-button-clear-md-default,
 .bar-button-md-default{
-  color: #f2bb0b;
+  color: #ffffff;
 }
 
-.scroll-content {
-  background: url("../assets/imgs/pattern-cinza-claro.jpg");
-  background-size: 40px;
+.scroll-content .list {
+  padding-top: 0.3em;
 }
+
+.scroll-content .item {
+  font-size: 1.4em;
+}
+
+
 
 @mixin aspect-ratio($width, $height) {
     position: relative;

@@ -1,22 +1,23 @@
 page-sintonizar {
+  .content {
+    background: #ebebef;
+  }
 
-.list-header{
-  font-size: 1.8rem;
-  background-color: #f2bb0b;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: bold;
-}
+  .list-header {
+    font-size: 1.2em;
+    background-color: #34003c;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
 
-.content{
-  background: url("../assets/imgs/pattern-cinza-claro.jpg");
-  background-size: 40px;
-}
+  .label {
+    font-size: 1.3em;
+  }
 
-.badge,
-.badge-md {
-  background-color: #f2bb0b;
-}
-
-
+  .badge,
+  .badge-md {
+    background-color: #aa075a;
+    font-size: 1.3em;
+  }
 }

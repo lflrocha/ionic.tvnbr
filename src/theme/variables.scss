@@ -89,5 +89,46 @@ $colors: (
 // Fonts
 // --------------------------------------------------
 
-@import "roboto";
 @import "noto-sans";
+
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 100;
+  src: local("Metropolis"), local("metropolis-thin"), url("../assets/fonts/metropolis-thin.woff") format("woff"), url("../assets/fonts/metropolis-thin.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Metropolis"), local("metropolis-light"), url("../assets/fonts/metropolis-thin.woff") format("woff"), url("../assets/fonts/metropolis-thin.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Metropolis"), local("metropolis-regular"), url("../assets/fonts/metropolis-regular.woff") format("woff"), url("../assets/fonts/metropolis-regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Metropolis"), local("metropolis-medium"), url("../assets/fonts/metropolis-medium.woff") format("woff"), url("../assets/fonts/metropolis-medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Metropolis Semi Bold"), local("metropolis-semibold"), url("../assets/fonts/metropolis-semibold.woff") format("woff"), url("../assets/fonts/metropolis-semibold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Metropolis"), local("metropolis-bold"), url("../assets/fonts/metropolis-bold.woff") format("woff"), url("../assets/fonts/metropolis-bold.otf") format("opentype");
+}

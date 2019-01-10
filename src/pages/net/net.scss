@@ -1,22 +1,27 @@
 page-net {
-
-  .content{
-    background: url("../assets/imgs/pattern-cinza-claro.jpg");
-    background-size: 40px;
+  .content {
+    background: #ebebef;
   }
 
-  .list-header{
-    font-size: 1.8rem;
-    background-color: #f2bb0b;
+  .list-header {
+    font-size: 1.2em;
+    background-color: #34003c;
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
   }
 
-  .badge,
-  .badge-md {
-    background-color: #f2bb0b;
+  .label {
+    font-size: 1.3em;
   }
 
+  .item-block:nth-child(odd) {
+    background: #ebebef;
+  }
 
+  .badge,
+  .badge-md {
+    background-color: #aa075a;
+    font-size: 1.3em;
+  }
 }
