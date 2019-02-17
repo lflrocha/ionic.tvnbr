@@ -19,18 +19,18 @@
     </ion-card-content>
     <ion-row>
       <ion-col>
-        <button ion-button large clear onclick="window.open('http://www.nbr.gov.br/', '_system', 'location=yes');"><ion-icon name="desktop"></ion-icon>  www.nbr.gov.br</button>
+        <button ion-button large clear (click)="openBrowser('http://www.nbr.gov.br/')" onclick="window.open(, 'location=yes');"><ion-icon name="desktop"></ion-icon>  www.nbr.gov.br</button>
       </ion-col>
     </ion-row>
     <ion-row>
       <ion-col>
-        <button ion-button large clear onclick="window.open('https://www.twitter.com/tvnbr', '_system', 'location=yes');"><ion-icon name="logo-twitter"></ion-icon></button>
+        <button ion-button large clear (click)="openBrowser('https://www.twitter.com/tvnbr')"><ion-icon name="logo-twitter"></ion-icon></button>
       </ion-col>
       <ion-col>
-        <button ion-button large clear onclick="window.open('https://www.facebook.com/tvnbr', '_system', 'location=yes');"><ion-icon name="logo-facebook"></ion-icon></button>
+        <button ion-button large clear (click)="openBrowser('https://www.facebook.com/tvnbr')"><ion-icon name="logo-facebook"></ion-icon></button>
       </ion-col>
       <ion-col>
-        <button ion-button large clear onclick="window.open('https://www.youtube.com/tvnbr', '_system', 'location=yes');"><ion-icon name="logo-youtube"></ion-icon></button>
+        <button ion-button large clear (click)="openBrowser('https://www.youtube.com/tvnbr')"><ion-icon name="logo-youtube"></ion-icon></button>
       </ion-col>
     </ion-row>
   </ion-card>

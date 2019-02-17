@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
-
+import { InAppBrowser } from '@ionic-native/in-app-browser';
 import { HttpClientModule } from '@angular/common/http';
 
 import { MyApp } from './app.component';
@@ -54,7 +54,8 @@ import { NetPageModule } from '../pages/net/net.module';
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     VideosProvider,
-    HttpClientModule
+    HttpClientModule,
+    InAppBrowser
   ]
 })
 export class AppModule {}

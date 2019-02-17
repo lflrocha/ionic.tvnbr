@@ -31,6 +31,7 @@ export class HomePage {
     this.http.get('http://nbr.gov.br/@@youtubejson_view').map(res => res ).subscribe(data => {
         json = data;
         aux = json.videos;
+        console.log(aux);
         for (let i = 0; i < aux.length; i++) {
           titulo = aux[i]['titulo'];
           dia = aux[i]['data'];

@@ -1,0 +1,52 @@
+page-video {
+  .scroll-content {
+    background: #ebebef;
+  }
+
+  .box-wrapper {
+    padding-bottom: 1em;
+    background-color: #34003c;
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+  }
+
+  .container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+  }
+
+  .dados {
+    padding: 1em;
+  }
+
+  .dados p {
+    margin: 0;
+  }
+
+  .dia {
+    font-weight: bold;
+    font-size: 0.9em;
+    padding-bottom: 0.5em;
+  }
+
+  .titulo {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 1em;
+    color: #34003c;
+  }
+
+  .descricao {
+    font-weight: normal;
+    font-size: 1.1em;
+  }
+}

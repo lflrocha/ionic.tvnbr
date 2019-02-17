@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>vídeos</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+  <div class="box-wrapper">
+    <div class="container">
+      <iframe class="video" [src]="trustedVideoUrl" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="dados">
+    <p class="dia">{{item.dia | date:'dd/MM/yyyy HH:mm'}}</p>
+    <p class="titulo">{{item.titulo}}</p>
+    <p class="descricao">{{item.descricao}}</p>
+  </div>
+</ion-content>

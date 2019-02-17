@@ -1,0 +1,48 @@
+// Metropolis Font
+// Google
+// Apache License, version 2.0
+// http://www.apache.org/licenses/LICENSE-2.0.html
+
+$metropolis-font-path: $font-path !default;
+
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 100;
+  src: local("Metropolis"), local("metropolis-thin"), url("#{$metropolis-font-path}/metropolis-thin.woff") format("woff"), url("#{$metropolis-font-path}/metropolis-thin.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Metropolis"), local("metropolis-light"), url("#{$metropolis-font-path}/metropolis-thin.woff") format("woff"), url("#{$metropolis-font-path}/metropolis-thin.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Metropolis"), local("metropolis-regular"), url("#{$metropolis-font-path}/metropolis-regular.woff") format("woff"), url("#{$metropolis-font-path}/metropolis-regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Metropolis"), local("metropolis-medium"), url("#{$metropolis-font-path}/metropolis-medium.woff") format("woff"), url("#{$metropolis-font-path}/metropolis-medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Metropolis Semi Bold"), local("metropolis-semibold"), url("#{$metropolis-font-path}/metropolis-semibold.woff") format("woff"), url("#{$metropolis-font-path}/metropolis-semibold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Metropolis"), local("metropolis-bold"), url("#{$metropolis-font-path}/metropolis-bold.woff") format("woff"), url("#{$metropolis-font-path}/metropolis-bold.otf") format("opentype");
+}
